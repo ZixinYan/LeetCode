@@ -2,6 +2,13 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
+// 计算权重为k的第k个数
+// 1. 计算权重：对于一个数x，如果x为1，则权重为1；否则，如果x为偶数，则权重为1+calc(x/2)；如果x为奇数，则权重为1+calc(x*3+1)。
+// 2. 自定义比较器：首先按照权重排序，然后按照数值排序。
+// 3. 获取第k个数：将区间[lo, hi]内的数按照权重排序，返回第k个数。
+// 时间复杂度为O(nlogn)，空间复杂度为O(n)。
+// https://leetcode.com/problems/sort-integers-by-the-power-value/discuss/517582/Java-Recursive-DFS-%2B-Memoization
+
 public class kthNumberByWeight_1387 {
     private static final int MAX = 1000000;
     private static int[] arr = new int[MAX];
