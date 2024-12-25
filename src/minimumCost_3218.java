@@ -1,5 +1,9 @@
 import java.util.PriorityQueue;
 
+// 采用优先队列来存储水平和垂直切割的位置，每次取出最小的切割位置，然后计算切割的代价，直到切割完所有的位置。
+// 时间复杂度为O((m+n)log(m+n))，空间复杂度为O(m+n)。
+// https://leetcode.com/problems/minimum-cost-to-cut-a-stick/discuss/780880/Java-Intuition-with-Explanation
+
 public class minimumCost_3218 {
     public int minimumCost(int m, int n, int[] horizontalCut, int[] verticalCut) {
         int cost = 0;
