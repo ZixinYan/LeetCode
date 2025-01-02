@@ -3,6 +3,7 @@
 // 时间复杂度为O(1)，空间复杂度为O(1)。
 // https://leetcode.com/problems/convert-date-to-binary/discuss/1009806/Java-1-liner
 
+
 public class convertDateToBinary_3280 {
     public String convertDateToBinary(String date) {
         String[] dateArray = date.split("-");
