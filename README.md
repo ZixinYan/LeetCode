@@ -5,6 +5,7 @@
       countTexts_2266
       minimumCoins_2944
 - 贪心算法
+      minimumMoney_2412
 - 滑动窗口
       ValidSubstringCount_3298
 - 差分数组
