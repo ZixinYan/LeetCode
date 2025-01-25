@@ -3,6 +3,7 @@
 # 记录一下用到的算法
 - 动态规划
       countTexts_2266
+      minimumCoins_2944
 - 贪心算法
 - 滑动窗口
       ValidSubstringCount_3298
