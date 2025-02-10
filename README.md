@@ -8,6 +8,7 @@
       minimumMoney_2412
 - 滑动窗口
       ValidSubstringCount_3298
+      lengthOfLongestSubstring_3
 - 差分数组
       MyCalendarTwo_731
 - 双向数组
