@@ -5,6 +5,7 @@
       countTexts_2266
       minimumCoins_2944
       minimumWhiteTiles_2209
+      minCut_132
 - 贪心算法
       minimumMoney_2412
 - 滑动窗口
