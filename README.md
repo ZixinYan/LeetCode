@@ -12,6 +12,7 @@
       ValidSubstringCount_3298
       lengthOfLongestSubstring_3
       findAnagrams_438
+      maxSlidingWindow_239
 - 差分数组
       MyCalendarTwo_731
 - 双向数组
